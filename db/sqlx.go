@@ -16,8 +16,6 @@ func CreateDB(config *env.Config) *sqlx.DB {
   	id INTEGER PRIMARY KEY AUTOINCREMENT,
     name text,
     age integer);`
-
-	// execute a query on the server
 	_, err = db.Exec(schema)
 	if err != nil {
 		panic(err)
