@@ -1,0 +1,43 @@
+hash: 37b1da08eeaf67a67b848b7405416ae4d6b3f5cf988df379efe1a3959703b62c
+updated: 2019-02-25T23:07:10.072772113+03:00
+imports:
+- name: github.com/jmoiron/sqlx
+  version: d161d7a76b5661016ad0b085869f77fd410f3e6a
+  subpackages:
+  - reflectx
+- name: github.com/labstack/echo
+  version: 6d9e043284aea2d07f5fcaf0d3a424eb7d9f6109
+- name: github.com/labstack/gommon
+  version: 82ef680aef5189b68682876cf70d09daa4ac0f51
+  subpackages:
+  - color
+  - log
+- name: github.com/lib/pq
+  version: 4ded0e9383f75c197b3a2aaa6d590ac52df6fd79
+  subpackages:
+  - oid
+- name: github.com/mattn/go-colorable
+  version: 3a70a971f94a22f2fa562ffcc7a0eb45f5daf045
+- name: github.com/mattn/go-isatty
+  version: 369ecd8cea9851e459abb67eb171853e3986591e
+- name: github.com/mattn/go-sqlite3
+  version: c7c4067b79cc51e6dfdcef5c702e74b1e0fa7c75
+- name: github.com/valyala/bytebufferpool
+  version: cdfbe9377474227bb42120c1e22fd4433e7f69bf
+- name: github.com/valyala/fasttemplate
+  version: dcecefd839c4193db0d35b88ec65b4c12d360ab0
+- name: go.uber.org/dig
+  version: 7ff117f761a3f1b3eb521945c17a1091438eb6de
+  subpackages:
+  - internal/digreflect
+  - internal/dot
+- name: golang.org/x/crypto
+  version: 7f87c0fbb88b590338857bcb720678c2583d4dea
+  subpackages:
+  - acme
+  - acme/autocert
+- name: golang.org/x/sys
+  version: cc5685c2db1239775905f3911f0067c0fa74762f
+  subpackages:
+  - unix
+testImports: []
